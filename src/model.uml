@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_TY70gOB0EeS2_M5ru1QeQw" name="Model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_TY70geB0EeS2_M5ru1QeQw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uopuIOB0EeS2_M5ru1QeQw" name="Framework">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w2A9kOB0EeS2_M5ru1QeQw" name=" frameWidth" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zyJ-kOB0EeS2_M5ru1QeQw" name="frameHeight" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4RIEQOB0EeS2_M5ru1QeQw" name="secInNanosec" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_A-EmQOB1EeS2_M5ru1QeQw" name="milisecInNanosec" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KU6Z0OB1EeS2_M5ru1QeQw" name="GAME_FPS" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QsJBoOB1EeS2_M5ru1QeQw" name="GAME_UPDATE_PERIOD" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UCwYIOB1EeS2_M5ru1QeQw" name="GAME_UPDATE_PERIOD" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEnumerator"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YZ9o8OB1EeS2_M5ru1QeQw" name="gameState" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaObject"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mhmSAOB1EeS2_M5ru1QeQw" name="gameTime" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_o8xT8OB1EeS2_M5ru1QeQw" name="lastTime" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_s38wEOB1EeS2_M5ru1QeQw" name="&lt;&lt;create>>"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_wcnJoOB1EeS2_M5ru1QeQw" name="Initialize" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1ZBZQOB1EeS2_M5ru1QeQw" name="LoadContent" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6ekWwOB1EeS2_M5ru1QeQw" name="GameLoop" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9t5ZgOB1EeS2_M5ru1QeQw" name="Draw">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DydkAOB2EeS2_M5ru1QeQw" name="g2d">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaObject"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_I_ozgOB2EeS2_M5ru1QeQw" name="newGame" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_LnBsgOB2EeS2_M5ru1QeQw" name="keyReleasedFramework">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_S0djkOB2EeS2_M5ru1QeQw" name="e">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaObject"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>
