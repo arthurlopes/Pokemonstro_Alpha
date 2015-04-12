@@ -50,4 +50,80 @@
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_VSKUQOCmEeSRjrxxP2BJqw" name="Canvas">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_akOq0OCmEeSRjrxxP2BJqw" name="keyboardState" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xNiaAOCmEeSRjrxxP2BJqw" name="&lt;&lt;create>>"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_0oy_8OCmEeSRjrxxP2BJqw" name="Draw" isAbstract="true">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DaQpIOCnEeSRjrxxP2BJqw" name="g2d">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaObject"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8uLysOCmEeSRjrxxP2BJqw" name=" paintComponent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_J6ifQOCnEeSRjrxxP2BJqw" name="g">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaObject"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KcOQAOCnEeSRjrxxP2BJqw" name=" keyboardKeyState" isStatic="true">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_UJXDsOCnEeSRjrxxP2BJqw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZZW9sOCnEeSRjrxxP2BJqw" name="key">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_aE3_4OCnEeSRjrxxP2BJqw" name="keyPressed">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ec1eoOCnEeSRjrxxP2BJqw" name="e">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaObject"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_fKz-8OCnEeSRjrxxP2BJqw" name="keyReleased">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kBR-oOCnEeSRjrxxP2BJqw" name="e">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaObject"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lw_owOCnEeSRjrxxP2BJqw" name="keyTyped">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qvY1YOCnEeSRjrxxP2BJqw" name="e">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaObject"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tQYygOCnEeSRjrxxP2BJqw" name="keyReleasedFramework" isAbstract="true">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1mF5MOCnEeSRjrxxP2BJqw" name="e">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaObject"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_33TG0OCnEeSRjrxxP2BJqw" name="Game">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__JBoAOCnEeSRjrxxP2BJqw" name="player">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaObject"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Cgdd4OCoEeSRjrxxP2BJqw" name="npc">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaObject"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HmHJEOCoEeSRjrxxP2BJqw" name="city">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaObject"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NuCwoOCoEeSRjrxxP2BJqw" name="&lt;&lt;create>>"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QEuUIOCoEeSRjrxxP2BJqw" name="Initialize" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UZjmYOCoEeSRjrxxP2BJqw" name=" LoadContent" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_XkaY0OCoEeSRjrxxP2BJqw" name=" UpdateGame">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_dlqJkOCoEeSRjrxxP2BJqw" name="gametime">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_gB2fMOCoEeSRjrxxP2BJqw" name="Draw">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jLE58OCoEeSRjrxxP2BJqw" name="g2d">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaObject"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pTu6QOCoEeSRjrxxP2BJqw" name="Window">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tSKesOCoEeSRjrxxP2BJqw" name="&lt;&lt;create>>"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vKSd8OCoEeSRjrxxP2BJqw" name="main" isStatic="true">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_J6MPEOCpEeSRjrxxP2BJqw" name="args[]">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
 </uml:Model>
